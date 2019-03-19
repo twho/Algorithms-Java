@@ -1,9 +1,11 @@
 package com.michaelho.DynamicProgramming;
 
+import com.michaelho.DataObjects.TreeNode;
 import com.michaelho.Main;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 public class DPTests {
 
@@ -82,8 +84,40 @@ public class DPTests {
     }
 
     private void runKnapsack1(int[] wt, int[] val, int w, int expected) {
-        int output = dp2.knapSackSol1(wt, val, val.length-1, w);
+        int output = dp2.knapSackSol1(wt, val, 0, w);
         assertEquals(expected, output);
+    }
+
+    @Test
+    public void testKnapsackUnltdSup() {
+        int[] wt = new int[]{5, 10, 15};
+        int[] val = new int[]{10, 30, 20};
+        int w = 100;
+        int expected = 300;
+        runKnapsackUnltdSup(wt, val, w, expected);
+    }
+
+    private void runKnapsackUnltdSup(int[] wt, int[] val, int w, int expected) {
+        int output = dp2.knapSackSol2(wt, val, w);
+        assertEquals(expected, output);
+    }
+
+    @Test
+    public void testChainMatrixMultiply() {
+        int[] matrix = new int[]{1, 2, 3, 4, 3};
+        int expected = 30;
+        runChainMatrixMutiply(matrix, expected);
+    }
+
+    private void runChainMatrixMutiply(int[] m, int expected) {
+        int output = dp2.chainMatrixMultiply(m, 1, m.length-1);
+        assertEquals(expected, output);
+    }
+
+    @Test
+    public void testBalancedBST() {
+        int[] treeArr = new int[]{3, 9, 20, 0, 0, 15, 7};
+        assertTrue(dp2.isBalancedBinaryTree(new TreeNode(treeArr)));
     }
 }
 

@@ -8,16 +8,24 @@ import org.junit.runner.notification.Failure;
 public class Main {
 
     public static void main(String[] args) {
-        Result result = JUnitCore.runClasses(DPTests.class);
-
-        for (Failure failure : result.getFailures()) {
-            System.out.println(failure.toString());
-        }
-
-        System.out.println("DPTests successful: " + result.wasSuccessful());
+        runTest(DPTests.class);
     }
 
     public static void print(String s) {
         System.out.println(s);
+    }
+
+    private static void runTest(Class toTest) {
+        int count = toTest.getName().split("\\.").length;
+        String className = toTest.getName().split("\\.")[count-1];
+
+        Result result = JUnitCore.runClasses(toTest);
+        print(className + " runs " + result.getRunCount() + " tests.");
+        for (Failure failure : result.getFailures()) {
+            print(className + " exception: " + failure.getException());
+            print(className + " failure: " + failure);
+        }
+
+        print(className + " isSuccessful: " + result.wasSuccessful());
     }
 }
