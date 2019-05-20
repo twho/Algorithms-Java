@@ -1,6 +1,7 @@
 package com.michaelho;
 
 import com.michaelho.DynamicProgramming.DPTests;
+import com.michaelho.RandomizedAlgorithms.RATests;
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
 import org.junit.runner.notification.Failure;
@@ -9,6 +10,7 @@ public class Main {
 
     public static void main(String[] args) {
         runTest(DPTests.class);
+        runTest(RATests.class);
     }
 
     public static void print(String s) {

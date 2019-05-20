@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d25b5ce9-0745-452a-b113-90b7014d6f92" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/michaelho/DataObjects/Edge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/michaelho/DataObjects/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/michaelho/DataObjects/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/michaelho/RandomizedAlgorithms/RA1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/michaelho/RandomizedAlgorithms/RATests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/michaelho/DynamicProgramming/DP2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/michaelho/DynamicProgramming/DP2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/michaelho/DynamicProgramming/DP3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/michaelho/DynamicProgramming/DP3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/michaelho/DynamicProgramming/DPTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/michaelho/DynamicProgramming/DPTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/michaelho/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/michaelho/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +33,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Algorithms-Java.iml" />
-        <option value="$PROJECT_DIR$/src/com/michaelho/Main.java" />
         <option value="$PROJECT_DIR$/src/com/michaelho/DataObjects/TreeNode.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/com/michaelho/DynamicProgramming/DP2.java" />
@@ -45,14 +42,17 @@
         <option value="$PROJECT_DIR$/src/com/michaelho/DataObjects/Graph.java" />
         <option value="$PROJECT_DIR$/src/com/michaelho/DynamicProgramming/DP3.java" />
         <option value="$PROJECT_DIR$/src/com/michaelho/DynamicProgramming/DPTests.java" />
+        <option value="$PROJECT_DIR$/src/com/michaelho/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/michaelho/RandomizedAlgorithms/RA1.java" />
+        <option value="$PROJECT_DIR$/src/com/michaelho/RandomizedAlgorithms/RATests.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1779" />
-    <option name="y" value="138" />
-    <option name="width" value="1834" />
-    <option name="height" value="1049" />
+    <option name="x" value="55" />
+    <option name="y" value="23" />
+    <option name="width" value="1625" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -62,8 +62,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -84,12 +82,17 @@
             </path>
             <path>
               <item name="Algorithms-Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Algorithms-Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="michaelho" type="462c0819:PsiDirectoryNode" />
+              <item name="RandomizedAlgorithms" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -101,7 +104,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558324216716" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558382214096" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -152,9 +155,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1680" y="83" width="1920" height="1057" extended-state="6" />
+    <frame x="55" y="23" width="1625" height="1027" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17465389" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21351863" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -163,7 +166,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49968415" weight="0.3284974" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49968415" weight="0.32834226" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -171,7 +174,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49968415" weight="0.32941177" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50031585" side_tool="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49968415" weight="0.32941177" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49399874" weight="0.1865285" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49399874" weight="0.18609625" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -192,18 +195,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/michaelho/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="24" column="69" selection-start-line="24" selection-start-column="69" selection-end-line="24" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#289#290#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
@@ -247,16 +238,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/michaelho/DynamicProgramming/DP1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/michaelho/DataObjects/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="677">
@@ -269,23 +250,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/michaelho/DynamicProgramming/DPTests.java">
+    <entry file="file://$PROJECT_DIR$/src/com/michaelho/DynamicProgramming/DP3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="155" column="5" lean-forward="true" selection-start-line="155" selection-start-column="5" selection-end-line="155" selection-end-column="5" />
+        <state relative-caret-position="574">
+          <caret line="105" column="26" selection-start-line="105" selection-start-column="26" selection-end-line="105" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/michaelho/DynamicProgramming/DP3.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="59" column="48" selection-start-line="59" selection-start-column="48" selection-end-line="59" selection-end-column="48" />
+        <state relative-caret-position="308">
+          <caret line="93" column="23" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/michaelho/DynamicProgramming/DPTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/michaelho/DynamicProgramming/DP1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/michaelho/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/michaelho/RandomizedAlgorithms/RATests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="42" column="48" selection-start-line="42" selection-start-column="48" selection-end-line="42" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/michaelho/RandomizedAlgorithms/RA1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="95" column="1" lean-forward="true" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="1" />
         </state>
       </provider>
     </entry>

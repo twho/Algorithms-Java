@@ -1,6 +1,5 @@
 package com.michaelho.DynamicProgramming;
 
-import com.michaelho.DataObjects.Edge;
 import com.michaelho.DataObjects.Graph;
 import com.michaelho.DataObjects.TreeNode;
 import org.junit.Test;
@@ -158,7 +157,7 @@ public class DPTests {
     @Test
     public void testBellmanFord() {
         Graph graph = createGraph(true);
-        int[] dist = dp3.shortestPathBellmanFord(graph, 0);
+        int[] dist = dp3.bf.shortestPath(graph, 0);
         int[] result = {0, -1, 2, -2, 1};
         for (int i = 0; i < dist.length; i++) {
             assertEquals(result[i], dist[i]);
@@ -168,7 +167,7 @@ public class DPTests {
     @Test
     public void testDijkstra() {
         Graph graph = createGraph(false);
-        int[] dist = dp3.shortestPathDijkstra(graph, 0);
+        int[] dist = dp3.dij.shortestPath(graph, 0);
         int[] result = {0, 1, 4, 3, 3};
         for (int i = 0; i < dist.length; i++) {
             assertEquals(result[i], dist[i]);
