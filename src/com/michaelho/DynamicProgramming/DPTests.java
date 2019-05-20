@@ -1,7 +1,8 @@
 package com.michaelho.DynamicProgramming;
 
+import com.michaelho.DataObjects.Edge;
+import com.michaelho.DataObjects.Graph;
 import com.michaelho.DataObjects.TreeNode;
-import com.michaelho.Main;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -11,6 +12,7 @@ public class DPTests {
 
     private DP1 dp1 = new DP1();
     private DP2 dp2 = new DP2();
+    private DP3 dp3 = new DP3();
 
     @Test
     public void testFibonacci() {
@@ -118,6 +120,59 @@ public class DPTests {
     public void testBalancedBST() {
         int[] treeArr = new int[]{3, 9, 20, 0, 0, 15, 7};
         assertTrue(dp2.isBalancedBinaryTree(new TreeNode(treeArr)));
+    }
+
+    private Graph createGraph(boolean negative) {
+        int V = 5;  // Number of vertices in graph
+        int E = 8;  // Number of edges in graph
+
+        Graph graph = new Graph(V, E);
+
+        // add edge 0-1
+        graph.addEdge(0, 1, negative ? -1 : 1);
+
+        // add edge 0-2
+        graph.addEdge(0, 2, 4);
+
+        // add edge 1-2
+        graph.addEdge(1, 2, 3);
+
+        // add edge 1-3
+        graph.addEdge(1, 3, 2);
+
+        // add edge 1-4
+        graph.addEdge(1, 4, 2);
+
+        // add edge 3-2
+        graph.addEdge(3, 2, 5);
+
+        // add edge 3-1
+        graph.addEdge(3, 1, 1);
+
+        // add edge 4-3
+        graph.addEdge(4, 3, negative ? -3 : 3);
+
+        return graph;
+    }
+
+    @Test
+    public void testBellmanFord() {
+        Graph graph = createGraph(true);
+        int[] dist = dp3.shortestPathBellmanFord(graph, 0);
+        int[] result = {0, -1, 2, -2, 1};
+        for (int i = 0; i < dist.length; i++) {
+            assertEquals(result[i], dist[i]);
+        }
+    }
+
+    @Test
+    public void testDijkstra() {
+        Graph graph = createGraph(false);
+        int[] dist = dp3.shortestPathDijkstra(graph, 0);
+        int[] result = {0, 1, 4, 3, 3};
+        for (int i = 0; i < dist.length; i++) {
+            assertEquals(result[i], dist[i]);
+        }
     }
 }
 

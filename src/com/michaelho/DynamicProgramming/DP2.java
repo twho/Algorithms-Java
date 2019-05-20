@@ -15,6 +15,7 @@ class DP2 {
      * The dynamic programming used to calculate knapsack problems. The runtime is
      * O(NW) where N is the number of objects and W is the weight limit of the knapsack.
      * Note that the runtime is not polynomial in the input size.
+     * Reference: https://www.geeksforgeeks.org/0-1-knapsack-problem-dp-10/
      *
      * @param wt The array represents the values of input objects.
      * @param val The array represents the weights of input objects.
@@ -116,7 +117,7 @@ class DP2 {
         return 1 + Math.max(getTreeHeight(tree.left), getTreeHeight(tree.right));
     }
 
-    // Incomplete
+    // TODO: Complete the problem.
     int palindromicSubstrings(String str) {
         return 0;
     }
