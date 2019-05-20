@@ -10,14 +10,14 @@
 --- | [Session 1](https://github.com/twho/Algorithms-Java/blob/master/src/com/michaelho/DynamicProgramming/DP1.java) | [Session 2](https://github.com/twho/Algorithms-Java/blob/master/src/com/michaelho/DynamicProgramming/DP2.java) | [Session 3](https://github.com/twho/Algorithms-Java/blob/master/src/com/michaelho/DynamicProgramming/DP3.java)
 ------------- | ------------ | ------------- | ------------- 
 Difficulty | 🌰 🌰 | 🌰 🌰 | 🌰 🌰 🌰
-Lessons | <ul><li>Fibonacci</li><li>Longest Common Subsequence</li><li>Longest Uncommon Subsequence</li><li>Longest Increasing Subsequence</li></ul> | <ul><li>Knapsack problem</li><li>Knapsack with repetition of items</li><li>Chain Matrix Multiplication</li><li>Balanced Binary Tree</li></ul> | <ul><li>Shortest path</li><li>Dijkstra's algorithm</li><li>Bellman-Ford's algorithm</li></ul>
+Lessons | <ol><li>Fibonacci</li><li>Longest Common Subsequence</li><li>Longest Uncommon Subsequence</li><li>Longest Increasing Subsequence</li></ol> | <ol><li>Knapsack problem</li><li>Knapsack with repetition of items</li><li>Chain Matrix Multiplication</li><li>Balanced Binary Tree</li></ol> | <ol><li>Shortest path</li><li>Dijkstra's algorithm</li><li>Bellman-Ford's algorithm</li></ol>
 
 ### Randomized Algorothms
 #### [Notes on Google doc](https://docs.google.com/document/d/1Amd9WoUmRuujpOVvk2_5SscDMXuXKJX-e2AqsppJtjs/edit?usp=sharing)
 --- | [Session 1](https://github.com/twho/Algorithms-Java/blob/master/src/com/michaelho/DynamicProgramming/DP1.java) | [Session 2](https://github.com/twho/Algorithms-Java/blob/master/src/com/michaelho/RandomizedAlgorithms/RA2.java) | [Session 3](https://github.com/twho/Algorithms-Java/blob/master/src/com/michaelho/RandomizedAlgorithms/RA3.java)
 ------------- | ------------ | ------------- | ------------- 
 Difficulty | 🍰 | -- | --
-Lessons | <ul><li>Modular Arithmetic</li><li>Multiplicative Inverses</li><li>Euclid's Algorithm [(GCD)](https://en.wikipedia.org/wiki/Greatest_common_divisor)</li></ul> | --- | ---
+Lessons | <ol><li>Modular Arithmetic</li><li>Multiplicative Inverses</li><li>Euclid's Algorithm [(GCD)](https://en.wikipedia.org/wiki/Greatest_common_divisor)</li></ol> | --- | ---
 
 ### Credits: 
 - [Udacity Course - Introducation to Graduate Algorithms](https://classroom.udacity.com/courses/ud401)
