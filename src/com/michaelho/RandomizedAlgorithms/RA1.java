@@ -22,6 +22,7 @@ class RA1 {
          * @param x The number as base to be calculated.
          * @param y The exponential number.
          * @param N The mod number.
+         * @return The result of modular exponential.
          * */
         int modularExp(int x, int y, int N) {
             int res = 1;
@@ -47,6 +48,7 @@ class RA1 {
          *
          * @param x The integer as base number.
          * @param N the modulo N.
+         * @return The multiplicative inverse of the x mod N, which is indicated as x^-1 mod N.
          * */
         int multiplicativeInverse(int x, int N) {
             x = x % N;
@@ -60,6 +62,9 @@ class RA1 {
         }
     }
 
+    /**
+     * The class covers all greatest common divisor solutions in the course.
+     * */
     class GreatestCommonDivisor {
 
         /**
@@ -68,6 +73,7 @@ class RA1 {
          *
          * @param x The larger number to calculate GCD.
          * @param y The smaller number to calculate GCD.
+         * @return The greatest common divisor derived by the algorithm.
          * */
         int euclidAlgorithm(int x, int y) {
             if (x == 0)
@@ -81,6 +87,7 @@ class RA1 {
          *
          * @param x The larger number.
          * @param y The smaller number.
+         * @return The results of extended Euclid's algorithm.
          * */
         int[] extEuclidAlgorithm(int x, int y) {
             if (y == 0)
