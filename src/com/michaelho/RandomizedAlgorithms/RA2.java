@@ -1,9 +1,8 @@
 package com.michaelho.RandomizedAlgorithms;
 
-import com.michaelho.Main;
-
 /**
- * The RA2 class explores a set of randomized algorithms such as RSA algorithm.
+ * The RA2 class explores a set of randomized algorithms such as Fermat's Theorem, Euler Theorem,
+ * RSA algorithm, and Primality Tests.
  *
  * @author Michael Ho
  * @since 2014-10-02

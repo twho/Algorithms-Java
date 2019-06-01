@@ -1,16 +1,17 @@
 package com.michaelho.RandomizedAlgorithms;
 
-import com.michaelho.Main;
 import org.junit.Test;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotEquals;
+import static org.junit.Assert.*;
 
 public class RATests {
     private RA1 ra1 = new RA1();
     private RA2 ra2 = new RA2();
+    private RA3 ra3 = new RA3();
 
     @Test
     public void testModularExp() {
@@ -102,6 +103,49 @@ public class RATests {
         boolean[] expected = {true, true, false, true, false, true};
         for (int i = 0; i < input.length; i++) {
             assertEquals(expected[i], ra2.pt.isPrimeUsingFermat(input[i], k));
+        }
+    }
+
+    @Test
+    public void testHashMapImplementation() {
+        ra3.map.add(1, "this");
+        ra3.map.add(2, "coder");
+        ra3.map.add(1, "hello");
+        ra3.map.add(5, "hi");
+        assertEquals(3, ra3.map.size());
+        assertEquals("hello", ra3.map.remove(1));
+        assertNull(ra3.map.remove(1));
+        assertEquals(2, ra3.map.size());
+        assertFalse(ra3.map.isEmpty());
+    }
+
+    @Test
+    public void testBloomFilter() {
+        String[] wordPresent = new String[]{
+                "abound","abounds","abundance", "abundant", "accessable",
+                "bloom", "blossom", "bolster", "bonny", "bonus", "bonuses",
+                "coherent", "cohesive", "colorful", "comely", "comfort",
+                "gems","generosity", "generous", "generously", "genial"
+        };
+        String[] wordAbsent = new String[] {
+                "bluff", "cheater", "hate", "war", "humanity",
+                "racism", "hurt", "nuke", "gloomy", "facebook",
+                "geeksforgeeks", "twitter"
+        };
+
+        for (String word : wordPresent) {
+            System.out.println(word + "");
+            ra3.bf.add(word);
+        }
+
+        List list = new ArrayList(Arrays.asList(wordAbsent));
+        list.addAll(Arrays.asList(Arrays.copyOfRange(wordPresent, 0, 5)));
+
+        // False positive rate is not tested here.
+        for (int i = 0; i < list.size(); i ++) {
+            if (i >= wordAbsent.length) {
+                assertTrue(ra3.bf.contains(list.get(i) + ""));
+            }
         }
     }
 }
