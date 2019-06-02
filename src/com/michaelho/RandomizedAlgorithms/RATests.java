@@ -134,7 +134,6 @@ public class RATests {
         };
 
         for (String word : wordPresent) {
-            System.out.println(word + "");
             ra3.bf.add(word);
         }
 

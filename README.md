@@ -44,6 +44,10 @@ Difficulty | --- | --- | --- | --- | ---
 1. Implementation of Hash Map
 1. Implementation of Bloom Filter
 
+#### [Divide and Conquer](https://docs.google.com/document/d/1K4FBY_mSgU8hGoPo65m633gana1KG3SldPCH_2SHlns/edit?usp=sharing)
+##### Lesson 1 - [source code](https://github.com/twho/Algorithms-Java/blob/master/src/com/michaelho/DivideAndConquer/DC1.java)
+1. Multiplication Algorithms - naive and faster approaches
+
 ### Credits: 
 - [Udacity Course - Introducation to Graduate Algorithms](https://classroom.udacity.com/courses/ud401)
 - [Geeks for Geeks](https://www.geeksforgeeks.org/)
