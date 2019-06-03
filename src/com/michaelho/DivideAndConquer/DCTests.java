@@ -7,6 +7,7 @@ import static org.junit.Assert.*;
 public class DCTests {
     DC1 dc1 = new DC1();
     DC2 dc2 = new DC2();
+    DC3 dc3 = new DC3();
 
     @Test
     public void testMultiplication1() {
@@ -48,5 +49,15 @@ public class DCTests {
         dc2.quickSort(arr, 0, arr.length-1);
         int[] expected = new int[] {3, 4, 5, 6, 7, 10, 17, 18, 21};
         assertArrayEquals(expected, arr);
+    }
+
+    @Test
+    public void testSumGS() {
+        float a = (float) 1;
+        float r = (float) 0.5;
+        int n = 10;
+        float expected = (float) 1.99805;
+        assertEquals(expected, dc3.sumOfGS(a, r, n), 0.01*expected);
+        assertEquals(expected, dc3.sumOfGSByFormula(a, r, n), 0.01*expected);
     }
 }
