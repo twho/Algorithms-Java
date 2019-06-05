@@ -12,7 +12,7 @@ Difficulty | 🌰 🌰 | 🌰 🌰 | 🌰 🌰 🌰 | --- | ---
 **Randomized Algorithms** | **[Lesson 1](https://github.com/twho/Algorithms-Java/blob/master/src/com/michaelho/RandomizedAlgorithms/RA1.java)** | **[Lesson 2](https://github.com/twho/Algorithms-Java/blob/master/src/com/michaelho/RandomizedAlgorithms/RA2.java)** | **[Lesson 3](https://github.com/twho/Algorithms-Java/blob/master/src/com/michaelho/RandomizedAlgorithms/RA3.java)** | **---** | **---**
 Difficulty | 🍰 | 🌰 🌰 | 🌰 | --- | ---
 **Divide and Conquer** | **[Lesson 1](https://github.com/twho/Algorithms-Java/blob/master/src/com/michaelho/DivideAndConquer/DC1.java)** | **[Lesson 2](https://github.com/twho/Algorithms-Java/blob/master/src/com/michaelho/DivideAndConquer/DC2.java)** | **[Lesson 3](https://github.com/twho/Algorithms-Java/blob/master/src/com/michaelho/DivideAndConquer/DC3.java)** | **[Lesson 4](https://github.com/twho/Algorithms-Java/blob/master/src/com/michaelho/DivideAndConquer/DC4.java)** | **[Lesson 5](https://github.com/twho/Algorithms-Java/blob/master/src/com/michaelho/DivideAndConquer/DC5.java)**
-Difficulty | 🍰 | 🌰 | 🍰 | --- | ---
+Difficulty | 🍰 | 🌰 | 🍰 | 🌰 🌰 🌰| ---
 
 #### [Dynamic Programming](https://docs.google.com/document/d/1vziO8Enan327BmAeR9yAxNgySxRCF01qZlb6c-i627E/edit?usp=sharing)
 ##### Lesson 1 - [source code](https://github.com/twho/Algorithms-Java/blob/master/src/com/michaelho/DynamicProgramming/DP1.java)
@@ -54,6 +54,10 @@ Difficulty | 🍰 | 🌰 | 🍰 | --- | ---
 
 ##### Lesson 3 - [source code](https://github.com/twho/Algorithms-Java/blob/master/src/com/michaelho/DivideAndConquer/DC3.java)
 1. Sum of Geometric Series
+
+##### Lesson 4 - [source code](https://github.com/twho/Algorithms-Java/blob/master/src/com/michaelho/DivideAndConquer/DC4.java)
+1. Polynomial Multiplication
+1. Fast Fourier Transform - FFT
 
 ### Credits: 
 - [Udacity Course - Introducation to Graduate Algorithms](https://classroom.udacity.com/courses/ud401)
