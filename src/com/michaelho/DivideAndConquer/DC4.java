@@ -4,7 +4,7 @@ import com.michaelho.DataObjects.Complex;
 
 /**
  * The DC4 class explores a set of divide and conquer algorithms such as polynomials multiplication using
- * naive method and Fast Fourier Transform.
+ * naive method, and Fast Fourier Transform Algorithm.
  *
  * @author Michael Ho
  * @since 2015-01-12
@@ -59,61 +59,12 @@ public class DC4 {
 
     class FastFourierTransform {
 
-        double[] multiply(double[] p, double[] q, int n, Complex[] omega, Complex[] omegaInv) {
-            // Generate complex objects with 2 times the size
-            Complex[] pInteger = new Complex[n];
-            Complex[] qInteger = new Complex[n];
-
-            // Copy the coefficents into the real part of complex number and pad zeros to remaining terms.
-            for (int i = 0; i < n/2; i++) {
-                pInteger[i] = new Complex(p[i], 0);
-                qInteger[i] = new Complex(q[i], 0);
-            }
-
-            for (int i = n/2; i < n; i++) {
-                pInteger[i] = new Complex(0, 0);
-                qInteger[i] = new Complex(0, 0);
-            }
-
-            int pow = 1;
-
-            // Apply the FFT to the two factors
-            Complex[] solp = fastFourierTransform(pInteger, omega, n, pow);
-            Complex[] solq = fastFourierTransform(qInteger, omega, n, pow);
-
-            // Multiply the results pointwise recursive
-            Complex[] finalSol = new Complex[n];
-            for (int i = 0; i < n; i++)
-                finalSol[i] = solp[i].multiply(solq[i]);
-
-            // Apply the FFT to the pointwise product
-            Complex[] poly = fastFourierTransform(finalSol, omegaInv, n, pow);
-
-            double[] result = new double[n-1];
-            for (int i=0; i < n-1; i++)
-                result[i] = poly[i].getReal() / n;
-
-            return result;
-        }
-
-        Complex[] getOmega(int n, boolean inverse) {
-            Complex[] omega = new Complex[n];
-            return omegaComputation(omega, n, inverse);
-        }
-
-        private Complex[] omegaComputation(Complex[] x, int length, boolean inverse) {
-            for(int i=0;i<length;i++){
-                x[i] = new Complex(Math.cos((2*i*Math.PI)/length), (inverse ? -1 : 1)*Math.sin((2*i*Math.PI)/length));
-            }
-            return x;
-        }
-
         /**
          * The function that calculates Fast Fourier Transform.
          *
          * @param a The complex numbers.
          * */
-        private Complex[] fastFourierTransform(Complex[] a, Complex[] omega, int length, int pow) {
+        Complex[] FFT(Complex[] a, Complex[] omega, int length, int pow) {
 
             if (length == 1)
                 return a;
@@ -129,8 +80,8 @@ public class DC4 {
                     aOdd[k/2] = a[k];
             }
 
-            Complex[] solutionEven = fastFourierTransform(aEven, omega, length/2, pow*2);
-            Complex[] solutionOdd = fastFourierTransform(aOdd, omega, length/2, pow*2);
+            Complex[] solutionEven = FFT(aEven, omega, length/2, pow*2);
+            Complex[] solutionOdd = FFT(aOdd, omega, length/2, pow*2);
 
             Complex[] polySol = new Complex[length];
             for (int i = 0; i < length; i++)
