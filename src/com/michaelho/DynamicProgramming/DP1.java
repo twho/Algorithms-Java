@@ -89,7 +89,6 @@ class DP1 {
             if (idx1 < 0 || idx2 < 0) {
                 return 0;
             }
-
             if (s1.charAt(idx1) == s2.charAt(idx2))
                 return 1 + dpFindLongestLength(s1, s2, idx1 - 1, idx2 - 1);
             else

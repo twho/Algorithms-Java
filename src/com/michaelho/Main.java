@@ -3,6 +3,7 @@ package com.michaelho;
 import com.michaelho.DivideAndConquer.DC1;
 import com.michaelho.DivideAndConquer.DCTests;
 import com.michaelho.DynamicProgramming.DPTests;
+import com.michaelho.GraphAlgorithms.GRTests;
 import com.michaelho.RandomizedAlgorithms.RATests;
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
@@ -14,6 +15,7 @@ public class Main {
         runTest(DPTests.class);
         runTest(RATests.class);
         runTest(DCTests.class);
+        runTest(GRTests.class);
     }
 
     public static void print(String s) {

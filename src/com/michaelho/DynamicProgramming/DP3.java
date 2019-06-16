@@ -4,6 +4,7 @@ import com.michaelho.DataObjects.Edge;
 import com.michaelho.DataObjects.Graph;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * The DP3 class explores a set of dynamic programming questions and solutions such as Dijstra's algorithm,
@@ -56,7 +57,7 @@ class DP3 {
                 sptSet[u] = true;
 
                 // Update dist value of the adjacent vertices of the picked vertex.
-                ArrayList<Edge> edges = graph.getEdgesList();
+                List<Edge> edges = graph.getEdgesList();
                 for (int v = 0; v < V; v++)
                     // Update dist[v] only if it is not in sptSet, there is an
                     // edge from u to v, and total weight of path from src to
@@ -118,7 +119,7 @@ class DP3 {
             // Relax all edges |V| - 1 times.
             // A simple shortest path from src to any other vertex
             // can have at-most |V| - 1 edges.
-            ArrayList<Edge> edges = graph.getEdgesList();
+            List<Edge> edges = graph.getEdgesList();
             for (int i = 1; i < V; i++) {
                 for (int j = 0; j < E; j++) {
                     int u = edges.get(j).src.val;

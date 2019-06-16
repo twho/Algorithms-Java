@@ -40,8 +40,8 @@ class DP2 {
      * The runtime is O(NW) where N is the number of objects and W is the weight limit
      * of the knapsack. The runtime is the same as previous version of knapsack problem.
      *
-     * @param wt The array represents the values of input objects.
-     * @param val The array represents the weights of input objects.
+     * @param wt The array represents the weights of input objects.
+     * @param val The array represents the values of input objects.
      * @param w The total weight allowed remaining.
      * @return int The results of calculation.
      * */
