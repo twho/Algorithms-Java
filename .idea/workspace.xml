@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d25b5ce9-0745-452a-b113-90b7014d6f92" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/michaelho/GraphAlgorithms/GR2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/michaelho/DataObjects/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/michaelho/DataObjects/Graph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/michaelho/DataObjects/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/michaelho/DataObjects/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/michaelho/DynamicProgramming/DP1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/michaelho/DynamicProgramming/DP1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/michaelho/DynamicProgramming/DP2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/michaelho/DynamicProgramming/DP2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/michaelho/DynamicProgramming/DP3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/michaelho/DynamicProgramming/DP3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/michaelho/DynamicProgramming/DPTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/michaelho/DynamicProgramming/DPTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/michaelho/GraphAlgorithms/GR1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/michaelho/GraphAlgorithms/GR1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/michaelho/GraphAlgorithms/GRTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/michaelho/GraphAlgorithms/GRTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/michaelho/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/michaelho/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +13,40 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/michaelho/GraphAlgorithms/GR2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/michaelho/DynamicProgramming/DP1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="82">
+              <caret line="142" column="5" selection-start-line="142" selection-start-column="5" selection-end-line="142" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2560#2561#0" expanded="true" />
+                <element signature="e#2652#2653#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/michaelho/DynamicProgramming/DP2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="950">
+              <caret line="50" column="21" lean-forward="true" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -41,6 +65,7 @@
       <find>'</find>
       <find>bluff</find>
       <find>O(</find>
+      <find>knapsack</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -70,18 +95,18 @@
         <option value="$PROJECT_DIR$/src/com/michaelho/Main.java" />
         <option value="$PROJECT_DIR$/src/com/michaelho/DataObjects/Node.java" />
         <option value="$PROJECT_DIR$/src/com/michaelho/DynamicProgramming/DP1.java" />
-        <option value="$PROJECT_DIR$/src/com/michaelho/DynamicProgramming/DP2.java" />
         <option value="$PROJECT_DIR$/src/com/michaelho/DynamicProgramming/DPTests.java" />
         <option value="$PROJECT_DIR$/src/com/michaelho/DataObjects/Graph.java" />
         <option value="$PROJECT_DIR$/src/com/michaelho/GraphAlgorithms/GRTests.java" />
-        <option value="$PROJECT_DIR$/src/com/michaelho/GraphAlgorithms/GR1.java" />
         <option value="$PROJECT_DIR$/src/com/michaelho/GraphAlgorithms/GR2.java" />
+        <option value="$PROJECT_DIR$/src/com/michaelho/GraphAlgorithms/GR1.java" />
+        <option value="$PROJECT_DIR$/src/com/michaelho/DynamicProgramming/DP2.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1683" />
-    <option name="y" value="83" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="3600" />
+    <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="1057" />
   </component>
@@ -93,8 +118,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -120,17 +143,12 @@
               <item name="michaelho" type="462c0819:PsiDirectoryNode" />
               <item name="DynamicProgramming" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Algorithms-Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithms-Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="michaelho" type="462c0819:PsiDirectoryNode" />
-              <item name="GraphAlgorithms" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -202,9 +220,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1680" y="83" width="1920" height="1057" extended-state="6" />
+    <frame x="3600" y="23" width="1920" height="1057" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12087327" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26996806" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -418,39 +437,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/michaelho/DynamicProgramming/DP1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1297">
-          <caret line="142" column="5" lean-forward="true" selection-start-line="142" selection-start-column="5" selection-end-line="142" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2560#2561#0" expanded="true" />
-            <element signature="e#2652#2653#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/michaelho/DynamicProgramming/DP2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/michaelho/DynamicProgramming/DP3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="21" column="9" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="21" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/michaelho/DataObjects/Graph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="117" column="17" selection-start-line="117" selection-start-column="17" selection-end-line="117" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -484,26 +474,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/michaelho/DynamicProgramming/DPTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2565">
-          <caret line="135" column="40" selection-start-line="135" selection-start-column="40" selection-end-line="135" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/michaelho/GraphAlgorithms/GR1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/michaelho/GraphAlgorithms/GRTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -514,10 +484,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/michaelho/DataObjects/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="117" column="17" selection-start-line="117" selection-start-column="17" selection-end-line="117" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/michaelho/GraphAlgorithms/GR1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="133" column="34" selection-start-line="133" selection-start-column="34" selection-end-line="133" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/michaelho/DynamicProgramming/DPTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="82" column="27" lean-forward="true" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/michaelho/GraphAlgorithms/GR2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/michaelho/DynamicProgramming/DP2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="50" column="21" lean-forward="true" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/michaelho/DynamicProgramming/DP1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="142" column="5" selection-start-line="142" selection-start-column="5" selection-end-line="142" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2560#2561#0" expanded="true" />
+            <element signature="e#2652#2653#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

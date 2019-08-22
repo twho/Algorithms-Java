@@ -11,6 +11,7 @@ import com.michaelho.DataObjects.TreeNode;
  * @since 2014-09-20
  * */
 class DP2 {
+
     /**
      * The dynamic programming used to calculate knapsack problems. The runtime is
      * O(NW) where N is the number of objects and W is the weight limit of the knapsack.
@@ -35,6 +36,7 @@ class DP2 {
         else
             return knapSackSol1(wt, val, idx+1, w);
     }
+
     /**
      * The dynamic programming used to calculate knapsack problems with unlimited supply.
      * The runtime is O(NW) where N is the number of objects and W is the weight limit
@@ -61,6 +63,7 @@ class DP2 {
 
         return maxVals[w];
     }
+
     /**
      * The dynamic programming used to calculate chain multiply matrix problems. Note
      * that the calculation merely focuses on how to decide which order to perform the
@@ -86,6 +89,7 @@ class DP2 {
         }
         return min;
     }
+
     /**
      * The method is used to determine if the binary tree is balanced. The definition of
      * a balanced binary tree means that each two subtrees of a root has the height difference
@@ -105,6 +109,7 @@ class DP2 {
                 && isBalancedBinaryTree(root.left)
                 && isBalancedBinaryTree(root.right);
     }
+
     /**
      * Calculate the height of the tree.
      *

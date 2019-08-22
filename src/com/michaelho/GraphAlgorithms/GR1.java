@@ -108,6 +108,8 @@ public class GR1 {
          * Runtime: O(V+E)
          *
          * @param graph The input graph.
+         *
+         * @return The vertices values of SCCs in the graph.
          * */
         List<List<Integer>> findSCCs(Graph graph) {
             Stack<Integer> stack = new Stack<>();
@@ -119,7 +121,7 @@ public class GR1 {
                     markAdjacentVisited(graph, i, visited, stack);
 
             // Create a reversed graph
-            Graph gr = reverseGraph(graph);
+            Graph gReversed = reverseGraph(graph);
 
             // Mark all the vertices as not visited (For second DFS)
             for (int i = 0; i < graph.V; i++)
@@ -127,12 +129,11 @@ public class GR1 {
 
             List<List<Integer>> output = new ArrayList<>();
             while (!stack.empty()) {
-                // Pop a vertex from stack
                 int v = stack.pop();
 
                 if (!visited[v]) {
                     List<Integer> list = new ArrayList<>();
-                    dfs.DFSHelper(gr, list, v, visited);
+                    dfs.DFSHelper(gReversed, list, v, visited);
                     output.add(list);
                 }
             }
